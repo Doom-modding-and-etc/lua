@@ -132,7 +132,7 @@ echo:
 	@echo "MYLIBS = $(MYLIBS)"
 	@echo "DL = $(DL)"
 
-$(ALL_O): makefile ltests.h
+$(ALL_O): Makefile ltests.h
 
 # DO NOT EDIT
 # automatically made with 'gcc -MM l*.c'

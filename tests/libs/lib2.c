@@ -1,5 +1,5 @@
-#include "lua.h"
-#include "lauxlib.h"
+#include <lua.h>
+#include <lauxlib.h>
 
 static int id (lua_State *L) {
   return lua_gettop(L);
